@@ -21,6 +21,11 @@ type
 
     method ToStringTest;
     begin
+      var now := DateTime.Now;
+
+      var isoString := DateTime.ToISO8601(now);
+
+      Assert.IsNotNil(isoString);
 
     end;
 
