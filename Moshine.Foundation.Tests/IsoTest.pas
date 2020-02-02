@@ -15,14 +15,7 @@ type
 
       var isoDate := DateTime.ParseISO8601DateTime(isoString);
 
-      if(assigned(isoDate))then
-      begin
-        //NSLog('%@','Got a date');
-      end
-      else
-      begin
-
-      end;
+      Assert.IsNotNil(isoDate);
 
     end;
 
