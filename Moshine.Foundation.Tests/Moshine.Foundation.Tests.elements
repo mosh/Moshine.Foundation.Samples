@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{52B5726A-C042-4CB6-B3CE-780252C8A00E}</ProjectGuid>
+    <RootNamespace>Moshine.Foundation.Tests</RootNamespace>
+  </PropertyGroup>
+  <Import Project="Moshine.Foundation.Tests.projitems" Label="Shared" />
+  <Import Project="$(MSBuildExtensionsPath)\RemObjects Software\Elements\RemObjects.Elements.SharedProject.targets" />
+</Project>

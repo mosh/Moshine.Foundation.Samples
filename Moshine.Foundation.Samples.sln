@@ -1,0 +1,30 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# RemObjects Fire
+Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "CocoaConsoleApplication", "CocoaConsoleApplication\CocoaConsoleApplication.elements", "{50A535B9-97D2-49C9-99FD-1CA96E6B1C25}"
+EndProject
+Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "CoreConsoleApplication", "CoreConsoleApplication\CoreConsoleApplication.elements", "{0564FFAB-2677-4D01-B69E-ED66C6A6E766}"
+EndProject
+Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "Moshine.Foundation", "..\Moshine.Foundation\Moshine.Foundation.elements", "{285F1F89-A475-4B02-B1D2-5DDD0E228100}"
+EndProject
+Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "Moshine.Foundation.Tests", "Moshine.Foundation.Tests\Moshine.Foundation.Tests.elements", "{52B5726A-C042-4CB6-B3CE-780252C8A00E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AnyCPU = Debug|AnyCPU
+		Release|AnyCPU = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50A535B9-97D2-49C9-99FD-1CA96E6B1C25}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{50A535B9-97D2-49C9-99FD-1CA96E6B1C25}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{50A535B9-97D2-49C9-99FD-1CA96E6B1C25}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{50A535B9-97D2-49C9-99FD-1CA96E6B1C25}.Release|AnyCPU.Build.0 = Release|AnyCPU
+		{0564FFAB-2677-4D01-B69E-ED66C6A6E766}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{0564FFAB-2677-4D01-B69E-ED66C6A6E766}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{0564FFAB-2677-4D01-B69E-ED66C6A6E766}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{0564FFAB-2677-4D01-B69E-ED66C6A6E766}.Release|AnyCPU.Build.0 = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
