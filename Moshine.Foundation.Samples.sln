@@ -9,6 +9,8 @@ Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "Moshine.Foundation", "..\Mo
 EndProject
 Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "Moshine.Foundation.Tests", "Moshine.Foundation.Tests\Moshine.Foundation.Tests.elements", "{52B5726A-C042-4CB6-B3CE-780252C8A00E}"
 EndProject
+Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "WebApplication", "WebApplication\WebApplication.elements", "{ABDFB7CA-7C57-45D4-AE07-BE3DDB1CF56B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|AnyCPU = Debug|AnyCPU
@@ -23,6 +25,10 @@ Global
 		{0564FFAB-2677-4D01-B69E-ED66C6A6E766}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
 		{0564FFAB-2677-4D01-B69E-ED66C6A6E766}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
 		{0564FFAB-2677-4D01-B69E-ED66C6A6E766}.Release|AnyCPU.Build.0 = Release|AnyCPU
+		{ABDFB7CA-7C57-45D4-AE07-BE3DDB1CF56B}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{ABDFB7CA-7C57-45D4-AE07-BE3DDB1CF56B}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{ABDFB7CA-7C57-45D4-AE07-BE3DDB1CF56B}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{ABDFB7CA-7C57-45D4-AE07-BE3DDB1CF56B}.Release|AnyCPU.Build.0 = Release|AnyCPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Mode>Echoes</Mode>
+    <TargetFramework>.NETCore</TargetFramework>
+    <RootNamespace>WebApplication14</RootNamespace>
+    <ProjectGuid>{ABDFB7CA-7C57-45D4-AE07-BE3DDB1CF56B}</ProjectGuid>
+    <NETCoreRuntime>Microsoft.AspNetCore.App</NETCoreRuntime>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <Optimize>false</Optimize>
+    <OutputPath>.\bin\Debug</OutputPath>
+    <GeneratePDB>True</GeneratePDB>
+    <EnableAsserts>True</EnableAsserts>
+    <WarnOnCaseMismatch>True</WarnOnCaseMismatch>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <OutputPath>.\bin\Release</OutputPath>
+    <GeneratePDB>False</GeneratePDB>
+    <EnableAsserts>False</EnableAsserts>
+    <WarnOnCaseMismatch>True</WarnOnCaseMismatch>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="appsettings.Development.json" />
+    <None Include="appsettings.json" />
+    <Compile Include="Program.pas" />
+    <Compile Include="Startup.pas" />
+    <None Include="Properties\launchSettings.json" />
+    <Compile Include="Modules\HomeModule.pas" />
+    <Compile Include="MyAuthHandler.pas" />
+    <Compile Include="Controllers\HomeController.pas" />
+    <Compile Include="Modules\SecureModule.pas" />
+    <Compile Include="Modules\SecuredHomeModule.pas" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\RemObjects Software\Elements\RemObjects.Elements.targets" />
+  <ItemGroup>
+    <NuGetReference Include="Carter:[5.0.0]">
+      <Private>True</Private>
+    </NuGetReference>
+  </ItemGroup>
+</Project>
