@@ -21,9 +21,12 @@ type
 
     class method CreateHostBuilder(args: array of String): IHostBuilder;
     begin
-      result := Host.CreateDefaultBuilder(args).ConfigureWebHostDefaults(webBuilder -> begin
-        webBuilder.UseStartup<Startup>();
-      end);
+      result := Host.CreateDefaultBuilder(args)
+        .ConfigureWebHostDefaults(webBuilder ->
+          begin
+            webBuilder.UseUrls('https://*:8081', 'http://*:8080');
+            webBuilder.UseStartup<Startup>;
+          end);
     end;
 
   end;
