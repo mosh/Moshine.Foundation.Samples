@@ -17,6 +17,12 @@ type
       var isoDate := DateTime.ParseISO8601DateTime(isoString);
 
       Assert.IsNotNil(isoDate);
+      Assert.IsTrue(isoDate.Year=2019);
+      //Assert.IsTrue(isoDate.Month=12);
+      //Assert.IsTrue(isoDate.Day=30);
+      //Assert.IsTrue(isoDate.Hour=16);
+      //Assert.IsTrue(isoDate.Minute=46);
+      //Assert.IsTrue(isoDate.Second=3);
 
     end;
 
@@ -38,6 +44,13 @@ type
       var isoString := '2019-08-01T22:09:13.067+00:00';
       var isoDate := DateTime.ParseISO8601DateTime(isoString);
       Assert.IsNotNil(isoDate);
+      Assert.IsTrue(isoDate.Year=2019);
+      //Assert.IsTrue(isoDate.Month=8);
+      //Assert.IsTrue(isoDate.Day=1);
+      //Assert.IsTrue(isoDate.Hour=9);
+      //Assert.IsTrue(isoDate.Minute=13);
+      //Assert.IsTrue(isoDate.Second=);
+
     end;
 
 
