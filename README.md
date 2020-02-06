@@ -1,2 +1,2 @@
 # Moshine.Foundation.Samples
-Samples for Moshine.Foundation
+Tests/examples for Moshine.Foundation
