@@ -44,7 +44,7 @@ type
       {$ENDIF}
 
     end;
-  end;
+                                                                 end;
 
   WebProxyTest = public class(Test)
   private
