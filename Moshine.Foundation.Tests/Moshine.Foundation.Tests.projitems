@@ -4,12 +4,12 @@
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
     <HasSharedItems>true</HasSharedItems>
     <SharedGUID>{52B5726A-C042-4CB6-B3CE-780252C8A00E}</SharedGUID>
-  </PropertyGroup>
-  <PropertyGroup Label="Configuration">
     <Import_RootNamespace>Moshine.Foundation.Tests</Import_RootNamespace>
+    <ProjectGuid>{52B5726A-C042-4CB6-B3CE-780252C8A00E}</ProjectGuid>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)IsoTest.pas" />
     <Compile Include="$(MSBuildThisFileDirectory)WebProxyTest.pas" />
+    <Compile Include="$(MSBuildThisFileDirectory)EpochTests.pas" />
   </ItemGroup>
 </Project>

@@ -1,11 +1,8 @@
-﻿namespace CocoaConsoleApplication;
+﻿namespace LinuxConsoleApplication;
 
 uses
-  Foundation,
-  Moshine.Foundation,
   Moshine.Foundation.Tests,
-  RemObjects.Elements.EUnit,
-  RemObjects.Elements.RTL;
+  RemObjects.Elements.EUnit;
 
 type
   Program = class
@@ -16,7 +13,6 @@ type
       //var lTests := Discovery.DiscoverTests();
       var lTests := Discovery.FromType(typeOf(EpochTests));
       Runner.RunTests(lTests) withListener(new ConsoleTestListener());
-
     end;
 
   end;

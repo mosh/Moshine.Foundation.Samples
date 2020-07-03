@@ -1,41 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
   <PropertyGroup>
-    <RootNamespace>CocoaConsoleApplication</RootNamespace>
-    <ProjectGuid>{50A535B9-97D2-49C9-99FD-1CA96E6B1C25}</ProjectGuid>
+    <ProductVersion>3.5</ProductVersion>
+    <RootNamespace>LinuxConsoleApplication</RootNamespace>
+    <ProjectGuid>{C626A79B-F16A-4384-B4C3-B605B5681337}</ProjectGuid>
     <OutputType>Executable</OutputType>
-    <AssemblyName>CocoaConsoleApplication</AssemblyName>
+    <AssemblyName>LinuxConsoleApplication</AssemblyName>
     <Configuration Condition="'$(Configuration)' == ''">Release</Configuration>
-    <SDK>macOS</SDK>
-    <MangleTypeNames>True</MangleTypeNames>
-    <EntitlementsFile>Entitlements.entitlements</EntitlementsFile>
     <DefaultUses>RemObjects.Elements.RTL</DefaultUses>
+    <Architecture>armv6</Architecture>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <Optimize>False</Optimize>
     <OutputPath>.\Bin\Debug</OutputPath>
     <DefineConstants>DEBUG;TRACE;</DefineConstants>
     <GenerateDebugInfo>True</GenerateDebugInfo>
+    <EnableUnmanagedDebugging>False</EnableUnmanagedDebugging>
     <EnableAsserts>True</EnableAsserts>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <OutputPath>.\Bin\Release</OutputPath>
+    <EnableUnmanagedDebugging>False</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Foundation" />
+    <Reference Include="gc" />
+    <Reference Include="Island" />
     <Reference Include="rtl" />
-    <Reference Include="libToffee" />
-    <Reference Include="libElements" />
-    <Reference Include="libEUnit" />
+    <Reference Include="Elements" />
     <RemoteProjectReference Include="github.com/Mosh/Moshine.Foundation/libMoshine.Foundation.elements:*">
       <Private>True</Private>
     </RemoteProjectReference>
+    <Reference Include="EUnit" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.pas" />
-    <None Include="Entitlements.entitlements" />
   </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\RemObjects Software\Elements\RemObjects.Elements.Toffee.targets" />
-  <Import Project="..\..\Moshine.Foundation\Moshine.Foundation.projitems" Label="Shared" />
+  <Import Project="$(MSBuildExtensionsPath)\RemObjects Software\Elements\RemObjects.Elements.Island.Linux.targets" />
   <Import Project="..\Moshine.Foundation.Tests\Moshine.Foundation.Tests.projitems" Label="Shared" />
 </Project>

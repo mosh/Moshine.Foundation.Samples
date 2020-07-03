@@ -5,7 +5,7 @@ Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "CocoaConsoleApplication", "
 EndProject
 Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "CoreConsoleApplication", "CoreConsoleApplication\CoreConsoleApplication.elements", "{0564FFAB-2677-4D01-B69E-ED66C6A6E766}"
 EndProject
-Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "Moshine.Foundation", "..\Moshine.Foundation\Moshine.Foundation.elements", "{285F1F89-A475-4B02-B1D2-5DDD0E228100}"
+Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "LinuxConsoleApplication", "LinuxConsoleApplication\LinuxConsoleApplication.elements", "{C626A79B-F16A-4384-B4C3-B605B5681337}"
 EndProject
 Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "Moshine.Foundation.Tests", "Moshine.Foundation.Tests\Moshine.Foundation.Tests.elements", "{52B5726A-C042-4CB6-B3CE-780252C8A00E}"
 EndProject
@@ -25,6 +25,10 @@ Global
 		{0564FFAB-2677-4D01-B69E-ED66C6A6E766}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
 		{0564FFAB-2677-4D01-B69E-ED66C6A6E766}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
 		{0564FFAB-2677-4D01-B69E-ED66C6A6E766}.Release|AnyCPU.Build.0 = Release|AnyCPU
+		{C626A79B-F16A-4384-B4C3-B605B5681337}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{C626A79B-F16A-4384-B4C3-B605B5681337}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{C626A79B-F16A-4384-B4C3-B605B5681337}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{C626A79B-F16A-4384-B4C3-B605B5681337}.Release|AnyCPU.Build.0 = Release|AnyCPU
 		{ABDFB7CA-7C57-45D4-AE07-BE3DDB1CF56B}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
 		{ABDFB7CA-7C57-45D4-AE07-BE3DDB1CF56B}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
 		{ABDFB7CA-7C57-45D4-AE07-BE3DDB1CF56B}.Release|AnyCPU.ActiveCfg = Release|AnyCPU

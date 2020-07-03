@@ -40,6 +40,9 @@
     <NuGetReference Include="Newtonsoft.Json:[12.0.1]">
       <Private>True</Private>
     </NuGetReference>
+    <RemoteProjectReference Include="github.com/mosh/Moshine.Foundation/Moshine.Foundation.elements:*">
+      <Private>True</Private>
+    </RemoteProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.pas" />
