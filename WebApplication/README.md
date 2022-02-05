@@ -1,2 +1,0 @@
-# CarterSample
-Simple Carter sample

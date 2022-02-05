@@ -11,7 +11,7 @@ type
     method GetValue;
     begin
       var value := DateTime.TimeSinceEpoch;
-
+      writeLn(value);
       Assert.IsTrue(value>0);
     end;
   end;

@@ -7,18 +7,9 @@ uses
   RemObjects.Elements.EUnit,
   RemObjects.Elements.RTL;
 
-type
-  Program = class
-  public
-
-    class method Main(args: array of String): Int32;
-    begin
-      //var lTests := Discovery.DiscoverTests();
-      var lTests := Discovery.FromType(typeOf(EpochTests));
-      Runner.RunTests(lTests) withListener(new ConsoleTestListener());
-
-    end;
-
-  end;
+begin
+  //var lTests := Discovery.DiscoverTests();
+  var lTests := Discovery.FromType(typeOf(EpochTests));
+  Runner.RunTests(lTests) withListener(new ConsoleTestListener());
 
 end.

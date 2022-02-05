@@ -1,9 +1,8 @@
-﻿namespace CoreConsoleApplication;
+﻿namespace DarwinConsoleApplication;
 
 uses
   Moshine.Foundation.Tests,
-  RemObjects.Elements.EUnit,
-  System.Linq;
+  RemObjects.Elements.EUnit;
 
 begin
   //var lTests := Discovery.DiscoverTests();

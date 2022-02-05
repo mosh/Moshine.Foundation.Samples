@@ -27,7 +27,7 @@
     <Reference Include="Island" />
     <Reference Include="rtl" />
     <Reference Include="Elements" />
-    <RemoteProjectReference Include="github.com/Mosh/Moshine.Foundation/libMoshine.Foundation.elements:*">
+    <RemoteProjectReference Include="github.com/Mosh/Moshine.Foundation/Moshine.Foundation.elements:*">
       <Private>True</Private>
     </RemoteProjectReference>
     <Reference Include="EUnit" />
