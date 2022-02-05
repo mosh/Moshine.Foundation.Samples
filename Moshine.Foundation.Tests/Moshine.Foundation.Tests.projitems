@@ -11,5 +11,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)IsoTest.pas" />
     <Compile Include="$(MSBuildThisFileDirectory)WebProxyTest.pas" />
     <Compile Include="$(MSBuildThisFileDirectory)EpochTests.pas" />
+    <Compile Include="$(MSBuildThisFileDirectory)ProxyForTests.pas" />
   </ItemGroup>
 </Project>

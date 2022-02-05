@@ -9,7 +9,8 @@ uses
 
 begin
   //var lTests := Discovery.DiscoverTests();
-  var lTests := Discovery.FromType(typeOf(EpochTests));
+  //var lTests := Discovery.FromType(typeOf(EpochTests));
+  var lTests := Discovery.FromType(typeOf(WebProxyTest));
   Runner.RunTests(lTests) withListener(new ConsoleTestListener());
 
 end.
