@@ -22,11 +22,16 @@ type
 
   public
 
+    method GetReturnsStatusCode(code:Integer);
+    begin
+      var getUrl := $'{Url}/status/{code}';
+      WebRequestAsString('GET',getUrl,nil,false);
+    end;
 
-    method Get;
+    method Get:String;
     begin
       var getUrl := $'{Url}/get';
-      var body := WebRequestAsString('GET',Url,nil,false);
+      exit WebRequestAsString('GET',getUrl,nil,false);
     end;
 
     method Post:PostModel;

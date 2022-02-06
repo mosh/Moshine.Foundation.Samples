@@ -26,6 +26,11 @@ type
       Assert.IsTrue(obj.Origin.Length > 0);
       Assert.IsTrue(obj.Url.Length > 0);
     end;
+
+    method StatusCodeTest;
+    begin
+      Assert.Catch(method begin Proxy.GetReturnsStatusCode(402); end,'Exception raised');
+    end;
   end;
 
 end.
