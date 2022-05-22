@@ -27,10 +27,11 @@
     <Reference Include="Island" />
     <Reference Include="rtl" />
     <Reference Include="Elements" />
-    <RemoteProjectReference Include="github.com/Mosh/Moshine.Foundation/Moshine.Foundation.elements:*">
-      <Private>True</Private>
-    </RemoteProjectReference>
     <Reference Include="EUnit" />
+    <ProjectReference Include="..\..\Moshine.Foundation\Moshine.Foundation.elements">
+      <Project>{19E42704-1AC8-4D61-B2C5-FF63E951602F}</Project>
+      <ProjectFile>..\..\Moshine.Foundation\Moshine.Foundation.elements</ProjectFile>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.pas" />

@@ -10,7 +10,7 @@ type
   public
     method GetValue;
     begin
-      var value := DateTime.TimeSinceEpoch;
+      var value := DateTime.TimeSinceEpochNow;
       writeLn(value);
       Assert.IsTrue(value>0);
     end;

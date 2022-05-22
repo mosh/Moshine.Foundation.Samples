@@ -8,6 +8,7 @@
     <AssemblyName>DarwinConsoleApplication</AssemblyName>
     <Configuration Condition="'$(Configuration)' == ''">Release</Configuration>
     <DefaultUses>RemObjects.Elements.RTL</DefaultUses>
+    <DefaultObjectModel>Cocoa</DefaultObjectModel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <Optimize>False</Optimize>
@@ -27,9 +28,10 @@
     <Reference Include="rtl" />
     <Reference Include="Elements" />
     <Reference Include="EUnit" />
-    <RemoteProjectReference Include="github.com/Mosh/Moshine.Foundation/Moshine.Foundation.elements:*">
-      <Private>True</Private>
-    </RemoteProjectReference>
+    <ProjectReference Include="..\..\Moshine.Foundation\Moshine.Foundation.elements">
+      <Project>{19E42704-1AC8-4D61-B2C5-FF63E951602F}</Project>
+      <ProjectFile>..\..\Moshine.Foundation\Moshine.Foundation.elements</ProjectFile>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.pas" />

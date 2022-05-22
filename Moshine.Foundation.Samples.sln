@@ -9,6 +9,8 @@ Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "DarwinConsoleApplication", 
 EndProject
 Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "LinuxConsoleApplication", "LinuxConsoleApplication\LinuxConsoleApplication.elements", "{C626A79B-F16A-4384-B4C3-B605B5681337}"
 EndProject
+Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "Moshine.Foundation", "..\Moshine.Foundation\Moshine.Foundation.elements", "{19E42704-1AC8-4D61-B2C5-FF63E951602F}"
+EndProject
 Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "Moshine.Foundation.Tests", "Moshine.Foundation.Tests\Moshine.Foundation.Tests.elements", "{52B5726A-C042-4CB6-B3CE-780252C8A00E}"
 EndProject
 Global
@@ -33,6 +35,10 @@ Global
 		{C626A79B-F16A-4384-B4C3-B605B5681337}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
 		{C626A79B-F16A-4384-B4C3-B605B5681337}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
 		{C626A79B-F16A-4384-B4C3-B605B5681337}.Release|AnyCPU.Build.0 = Release|AnyCPU
+		{19E42704-1AC8-4D61-B2C5-FF63E951602F}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{19E42704-1AC8-4D61-B2C5-FF63E951602F}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{19E42704-1AC8-4D61-B2C5-FF63E951602F}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{19E42704-1AC8-4D61-B2C5-FF63E951602F}.Release|AnyCPU.Build.0 = Release|AnyCPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
