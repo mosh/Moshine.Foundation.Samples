@@ -14,5 +14,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)ProxyForTests.pas" />
     <Compile Include="$(MSBuildThisFileDirectory)DictionaryTests.pas" />
     <Compile Include="$(MSBuildThisFileDirectory)DoubleTests.pas" />
+    <Compile Include="$(MSBuildThisFileDirectory)DateTimeTests.pas" />
   </ItemGroup>
 </Project>

@@ -14,7 +14,7 @@ type
     property Name:String;
   end;
 
-  {$IF DARWIN}
+  {$IF ISLAND}
   DictionaryTests = public class(Test)
   public
     method SimpleTypes;

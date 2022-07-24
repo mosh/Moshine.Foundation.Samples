@@ -1,7 +1,7 @@
 ﻿namespace Moshine.Foundation.Tests;
 
 uses
-  Moshine.Foundation.Shared,
+  Moshine.Foundation,
   RemObjects.Elements.EUnit;
 
 type
