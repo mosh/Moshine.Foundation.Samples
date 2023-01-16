@@ -5,6 +5,8 @@ uses
   RemObjects.Elements.EUnit;
 
 type
+  {$IF TOFFEE OR DARWIN}
+
   DoubleTests = public class(Test)
   private
   protected
@@ -39,5 +41,6 @@ type
 
 
   end;
+  {$ENDIF}
 
 end.
