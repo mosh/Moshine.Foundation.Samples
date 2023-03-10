@@ -15,5 +15,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)DictionaryTests.pas" />
     <Compile Include="$(MSBuildThisFileDirectory)DoubleTests.pas" />
     <Compile Include="$(MSBuildThisFileDirectory)DateTimeTests.pas" />
+    <Compile Include="$(MSBuildThisFileDirectory)DateTimeOffsetExtensionsTests.pas" />
+    <Compile Include="$(MSBuildThisFileDirectory)LocalDateTimeExtensionsTests.pas" />
   </ItemGroup>
 </Project>
